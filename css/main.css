@@ -1,0 +1,93 @@
+body{
+background-color: black;
+color: white;
+height: 4000px;
+}
+.navbar-brand img{
+    width: 80px;
+    height: 40px;
+}
+#header .navbar{
+    background: linear-gradient(to left , #111 40% , #ddd)
+} 
+img{
+    height: 1000px;
+}
+#header .navbar ul li .nav-link{
+    font-weight: bold;
+    color: blueviolet;
+    transition: all .5s;
+}
+#header .navbar ul li .nav-link:hover{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+/* ================== */
+#profile{
+    background-color: #222;
+    padding: 100px 0px;
+
+}
+.hr{
+    width: 40%;
+    height: 2px;
+    margin: 20px auto;
+    background: linear-gradient(to right, red,black,red);
+}
+.hrr{
+    width: 20%;
+    height: 2px;
+    margin: 20px auto;
+    background: linear-gradient(to right, red,black,red);
+}
+.hre{
+    width: 10%;
+    height: 2px;
+    margin: 20px auto;
+    background: linear-gradient(to right, red,black,red);
+}
+i{
+    font-size: 50px;
+    color: red;
+    transition: all 1s;
+}
+i:hover{
+    color: thistle;
+    transform: rotate(360deg) scale(1.2 ,1.2);
+}
+#products{
+    background-color: rgb(30,52,73);
+    padding: 100px 0px; 
+}
+.card{
+    background-color: #333;
+    margin-top: 10px;
+}
+.container img{
+    width: 100%;
+}
+.col-lg-3 {
+    margin: auto;
+}
+
+.col-md-4 {
+    margin: 5px 0px;
+    padding: 0px 15px;
+}
+
+.col-md-4 img {
+    border-radius: 15px;
+}
+.page-footer{
+    background-color:darkslateblue
+}
+
+.footer li a {
+    
+    text-decoration: none;
+    color: white;
+}
+p{
+    margin-left: 20%;
+}
